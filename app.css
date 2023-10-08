@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+.main5{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://rosretail.com/storage/uploads/blocks/383/image/2.jpg");
+    background-size: cover;
+    position: relative;
+}
+.overline3{
+    width: 80%;
+    height: 70vh;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 35px;
+    left: 10%;
+    opacity: 0.7;
+}
+.about{
+    font-size: 45px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    font-weight: 600;
+}
+.text2{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line2{
+    width: 450px;
+    height: 4px;
+    background-color: black;
+    margin-top: 10px;
+}
+.text3{
+    text-align: center;
+    font-size: 26px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main6{
+    width: 100%;
+    height: 90vh;
+}
+.say{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    color: #557A46;
+    font-weight: 900;
+}
+.boxx{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.number{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.firsthisse{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+}
+.secondhisse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.photo1{
+    width: 700px;
+    object-fit: cover;
+}
+.text4{
+font-size: 24px;
+height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #557A46;
+margin-top: 100px;
+}
+.basliq1{
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.yazi{
+    margin-top: 20px;
+}
+
+.menu {
+    width: 40px;
+    cursor: pointer;
+}
+
+.men2 {
+    margin-left: 20px;
+}
+
+.cancel {
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.line {
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    margin-top: -42px;
+    display: none;
+    transition: 0.3s;
+    z-index: 1;
+    position: fixed;
+}
+
+ul {
+    font-size: 28px;
+    margin: 15px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+li {
+    margin-top: 25px;
+}
+@media screen and (max-width: 600px) {
+    .overline3{
+        width: 80%;
+        height: 58vh;
+        background-color: antiquewhite;
+        position: absolute;
+        top: 120px;
+        left: 10%;
+        opacity: 0.7;
+    }
+    .about{
+        font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    font-weight: 600;
+    }
+    .text2{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line2{
+        width: 220px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+    }
+    .text3{
+        font-size: 19px;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu {
+        width: 35px;
+        cursor: pointer;
+    }
+    
+    .men2 {
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .cancel {
+        width: 45px;
+        margin-left: 10px;
+        padding-top: 5px;
+        cursor: pointer;
+    }
+    
+    .line {
+        width: 170px;
+        height: 110vh;
+        margin-top: -49px;
+    }
+    
+    ul{
+        font-size: 20px;
+    }
+    .say{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 12px;
+    }
+    .number{
+        font-size: 28px;
+    }
+    .firsthisse{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 70%;
+        margin-left: 15px;
+    }
+    .secondhisse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 100%;
+        height: 70%;
+    }
+    .photo1{
+        width: 330px;
+        object-fit: cover;
+    }
+    .text4{
+    font-size: 12px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #557A46;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    .yazi{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    .overline3{
+        width: 80%;
+        height: 58vh;
+        background-color: antiquewhite;
+        position: absolute;
+        top: 120px;
+        left: 10%;
+        opacity: 0.7;
+    }
+    .about{
+        font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    font-weight: 600;
+    }
+    .text2{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line2{
+        width: 220px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+    }
+    .text3{
+        font-size: 19px;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu {
+        width: 35px;
+        cursor: pointer;
+    }
+    
+    .men2 {
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .cancel {
+        width: 45px;
+        margin-left: 10px;
+        padding-top: 5px;
+        cursor: pointer;
+    }
+    
+    .line {
+        width: 170px;
+        height: 110vh;
+        margin-top: -49px;
+    }
+    
+    ul{
+        font-size: 20px;
+    }
+    .say{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 12px;
+    }
+    .number{
+        font-size: 28px;
+    }
+    .firsthisse{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 70%;
+        margin-left: 15px;
+    }
+    .secondhisse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 100%;
+        height: 70%;
+    }
+    .photo1{
+        width: 330px;
+        object-fit: cover;
+    }
+    .text4{
+    font-size: 12px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #557A46;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    .yazi{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 991px) {
+    .overline3{
+        width: 80%;
+        height: 58vh;
+        background-color: antiquewhite;
+        position: absolute;
+        top: 120px;
+        left: 10%;
+        opacity: 0.7;
+    }
+    .about{
+        font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    font-weight: 600;
+    }
+    .text2{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line2{
+        width: 250px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+    }
+    .text3{
+        font-size: 20px;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu {
+        width: 35px;
+        cursor: pointer;
+    }
+    
+    .men2 {
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .cancel {
+        width: 45px;
+        margin-left: 10px;
+        padding-top: 5px;
+        cursor: pointer;
+    }
+    
+    .line {
+        width: 170px;
+        height: 110vh;
+        margin-top: -49px;
+    }
+    
+    ul{
+        font-size: 20px;
+    }
+    .say{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 14px;
+    }
+    .number{
+        font-size: 35px;
+    }
+    .firsthisse{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 70%;
+        margin-left: 15px;
+    }
+    .secondhisse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 100%;
+        height: 70%;
+    }
+    .photo1{
+        width: 360px;
+        object-fit: cover;
+    }
+    .text4{
+    font-size: 18px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #557A46;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    .main6{
+        width: 100%;
+        height: 90vh;
+    }
+    .boxx{
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+    
+    }
+
+    .basliq1{
+        font-weight: 900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .yazi{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .overline3{
+        width: 80%;
+        height: 70vh;
+        background-color: antiquewhite;
+        position: absolute;
+        top: 70px;
+        left: 10%;
+        opacity: 0.7;
+    }
+    .about{
+        font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    font-weight: 600;
+    }
+    .text2{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line2{
+        width: 160px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+    }
+    .text3{
+        font-size: 17px;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .men {
+        margin-top: -55px;
+    }
+    .menu{
+        width: 25px;
+    }
+    .cancel{
+        width: 35px;
+        padding-top: 20px;
+    }
+    .line {
+        width: 120px;
+        height: 110vh;
+        display: none;
+        position: absolute;
+    }
+    ul{
+        font-size: 16px;
+    }
+    .say{
+        display: flex;
+        width: 100%;
+        height: 20%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 8px;
+    }
+    .number{
+        font-size: 20px;
+    }
+    .firsthisse{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 40%;
+        margin-left: 15px;
+    }
+    .secondhisse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 98%;
+        height: 40%;
+    }
+    .photo1{
+        width: 180px;
+        object-fit: cover;
+    }
+    .text4{
+    font-size: 6px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #557A46;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    .yazi{
+        margin-top: 20px;
+        font-size: 7px;
+    }
+}
